@@ -1,24 +1,57 @@
 * {
-    background-color:rgb(184, 235, 184);
+    background-color: rgb(184, 235, 184);
 }
-h1 {
+
+h1,
+h2,
+h3,
+h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+h1 {
+
     font-size: 80px;
-    text-align: center;;
-    color: rgba(120, 120, 120, 0.65);
+    text-align: center;
     background-color: rgba(100, 180, 100, 0.7);
     margin: -10px;
 }
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 .listaReceitas {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     line-height: 100px;
     text-align: center;
 }
+
 .thumbs {
     height: auto;
     width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.receita {
+    height: auto;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+ul,
+ol {
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
